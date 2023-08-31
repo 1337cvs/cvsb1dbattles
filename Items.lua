@@ -6049,3 +6049,5 @@ v1.Price = 100000
 v1.Rarity = "Exotic"
 v1.Tradeable = false
 items[1233] = tableCopy(v1)
+
+getgenv().cvsitems = items
