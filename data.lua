@@ -7,6 +7,27 @@ function tableCopy(table)
     return out
 end
 
+local auctions = {}
+auctions[1] = "Da Hood"
+auctions[2] = "Warehouse"
+auctions[3] = "The Store"
+auctions[4] = "Moda"
+auctions[5] = "Cabin"
+auctions[6] = "Tropical Island"
+auctions[7] = "Beverly Hills"
+auctions[8] = "King Henry's Pad"
+auctions[9] = "Steampunk"
+auctions[10] = "Fort Boyard"
+auctions[11] = "Bank Vault"
+auctions[12] = "2050"
+auctions[13] = "Mansion House"
+auctions[14] = "Greek Temple"
+auctions[15] = "Space Base"
+auctions[16] = "Pirate's Cove"
+auctions[17] = "Volcano"
+
+getgenv().garages = auctions
+
 local v1 = {}
 local items = {}
 v1.Name = "Office Chair"
